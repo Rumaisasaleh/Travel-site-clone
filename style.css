@@ -1,0 +1,262 @@
+.body{
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.no-touchevents{
+    margin-left: 42%;
+    margin-top: 20px;
+}
+
+.header-description{
+    font: italic 11px / 13px "Sabon W01", Georgia, "Times New Roman", serif;
+    text-transform: none;
+    text-align: left;
+    color: #8f8f8f;
+}
+
+.nav-item{
+    font-size: 15px;
+}
+
+.card{
+    opacity: 1;
+    transition: opacity 0.267s, transform 0.408s ease-out;
+}
+
+.img1:hover{
+    transform: scale(1.08); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-img-top:hover{
+    transform: scale(1.08); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.col img:hover{
+    transform: scale(1.08); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.featuredGuides-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Add space between cards */
+}
+
+.featuredGuides-card-link {
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+    position: relative;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    width: calc(25% - 20px); /* Adjust the width of the cards */
+    box-sizing: border-box;
+}
+
+.featuredGuides-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.featuredGuides-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.featuredGuides-card:hover{
+    transform: scale(1.08); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.featuredGuides-card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.featuredGuides-card:hover .featuredGuides-card-content {
+    opacity: 1;
+}
+
+.featuredGuides-card-title {
+    font-family: "Univers W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+.btn {
+    border: none;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+    background-color: azure;
+    border-radius: 0;
+    color: black;
+}
+
+.btn:hover {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    color: rgb(59, 163, 255);
+    background-color: aliceblue;
+}
+
+.btn:hover b,
+.btn:hover i {
+    color: rgb(59, 163, 255);
+}
+
+#button {
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+    background-color: rgb(31, 30, 30);
+    border-radius: 0;
+    color: white;
+    padding: 100px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: rgb(59, 163, 255);
+    color: white;
+    transform: scale(1.08);
+}
+
+footer{
+    background-color: black;
+}
+
+footer div p{
+    color: rgb(236, 236, 236);
+}
+
+.footer{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .image-hover{
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+    transform: translateZ(0);
+    position: relative;
+    display: block;
+} */
+
+
+
+/* .no-border-radius {
+    border-radius: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+nav-card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+
+
+
+will-change: transform; transform: perspective(1500px) rotateX(0deg) rotateY(0deg);
+
+
+
+.posts-card-art-image--homeIntroFeature {
+    background-image: url("https://cdn.roadsandkingdoms.com/uploads/2024/06/Fierberg_04171.jpg?aspect_ratio=1416:992&width=1416&quality=85&sharpen=1");
+}
+
+@media screen and (min-width: 768px) {
+    .posts-card-art-image--homeIntroFeature {
+        background-image: url("https://cdn.roadsandkingdoms.com/uploads/2024/06/Fierberg_04171.jpg?aspect_ratio=1416:992&width=1416&quality=85&sharpen=1");
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .posts-card-art-image--homeIntroFeature {
+        background-image: url("https://cdn.roadsandkingdoms.com/uploads/2024/06/Fierberg_04171.jpg?aspect_ratio=1300:910&width=1300&quality=85&sharpen=1");
+    }
+}
+
+
+ */
